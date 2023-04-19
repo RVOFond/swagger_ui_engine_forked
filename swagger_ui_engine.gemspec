@@ -1,0 +1,33 @@
+# -*- encoding: utf-8 -*-
+# stub: swagger_ui_engine 1.1.4 ruby lib
+
+Gem::Specification.new do |s|
+  s.name = "swagger_ui_engine".freeze
+  s.version = "1.1.4"
+
+  s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib".freeze]
+  s.authors = ["zuzannast".freeze]
+  s.date = "2022-05-11"
+  s.description = "Mount Swagger UI web console as Rails engine, configure it as you want and write your API documentation in simple YAML files.".freeze
+  s.email = ["zuzannast@gmail.com".freeze]
+  s.files = ["CHANGELOG.md".freeze, "MIT-LICENSE".freeze, "Rakefile".freeze, "app/assets/config/manifest.js".freeze, "app/assets/fonts/swagger_ui_engine".freeze, "app/assets/fonts/swagger_ui_engine/DroidSans-Bold.ttf".freeze, "app/assets/fonts/swagger_ui_engine/DroidSans.ttf".freeze, "app/assets/images/swagger_ui_engine".freeze, "app/assets/images/swagger_ui_engine/collapse.gif".freeze, "app/assets/images/swagger_ui_engine/expand.gif".freeze, "app/assets/images/swagger_ui_engine/explorer_icons.png".freeze, "app/assets/images/swagger_ui_engine/favicon-16x16.png".freeze, "app/assets/images/swagger_ui_engine/favicon-32x32.png".freeze, "app/assets/images/swagger_ui_engine/favicon.ico".freeze, "app/assets/images/swagger_ui_engine/logo_small.png".freeze, "app/assets/images/swagger_ui_engine/pet_store_api.png".freeze, "app/assets/images/swagger_ui_engine/throbber.gif".freeze, "app/assets/images/swagger_ui_engine/wordnik_api.png".freeze, "app/assets/javascripts/swagger_ui_engine".freeze, "app/assets/javascripts/swagger_ui_engine/application.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang".freeze, "app/assets/javascripts/swagger_ui_engine/lang/ca.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/de.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/el.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/en.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/es.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/fr.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/geo.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/it.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/ja.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/ko-kr.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/pl.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/pt.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/ru.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/tr.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/translator.js".freeze, "app/assets/javascripts/swagger_ui_engine/lang/zh-cn.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib".freeze, "app/assets/javascripts/swagger_ui_engine/lib/backbone-min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/es5-shim.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/handlebars-4.0.5.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/highlight.9.1.0.pack.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/highlight.9.1.0.pack_extended.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/jquery-1.8.0.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/jquery.ba-bbq.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/jquery.slideto.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/jquery.wiggle.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/js-yaml.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/jsoneditor.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/lodash.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/marked.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/object-assign-pollyfill.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/sanitize-html.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/lib/swagger-oauth.js".freeze, "app/assets/javascripts/swagger_ui_engine/swagger-ui.js".freeze, "app/assets/javascripts/swagger_ui_engine/swagger-ui.min.js".freeze, "app/assets/javascripts/swagger_ui_engine/swagger.json".freeze, "app/assets/stylesheets/swagger_ui_engine".freeze, "app/assets/stylesheets/swagger_ui_engine/application.css".freeze, "app/assets/stylesheets/swagger_ui_engine/custom.css".freeze, "app/assets/stylesheets/swagger_ui_engine/lib".freeze, "app/assets/stylesheets/swagger_ui_engine/lib/print.css.erb".freeze, "app/assets/stylesheets/swagger_ui_engine/lib/reset.css".freeze, "app/assets/stylesheets/swagger_ui_engine/lib/screen.css.erb".freeze, "app/assets/stylesheets/swagger_ui_engine/lib/style.css".freeze, "app/assets/stylesheets/swagger_ui_engine/lib/typography.css.erb".freeze, "app/assets/stylesheets/swagger_ui_engine/print.css".freeze, "app/controllers/swagger_ui_engine".freeze, "app/controllers/swagger_ui_engine/application_controller.rb".freeze, "app/controllers/swagger_ui_engine/swagger_docs_controller.rb".freeze, "app/helpers/swagger_ui_engine".freeze, "app/helpers/swagger_ui_engine/auth_config_parser.rb".freeze, "app/helpers/swagger_ui_engine/config_parser.rb".freeze, "app/helpers/swagger_ui_engine/oauth_config_parser.rb".freeze, "app/helpers/swagger_ui_engine/translation_helper.rb".freeze, "app/views/swagger_ui_engine".freeze, "app/views/swagger_ui_engine/layouts".freeze, "app/views/swagger_ui_engine/layouts/swagger.html.erb".freeze, "app/views/swagger_ui_engine/swagger_docs".freeze, "app/views/swagger_ui_engine/swagger_docs/index.html.erb".freeze, "app/views/swagger_ui_engine/swagger_docs/oauth2.html.erb".freeze, "app/views/swagger_ui_engine/swagger_docs/show.html.erb".freeze, "config/routes.rb".freeze, "lib/swagger_ui_engine".freeze, "lib/swagger_ui_engine.rb".freeze, "lib/swagger_ui_engine/configuration.rb".freeze, "lib/swagger_ui_engine/defaults.rb".freeze, "lib/swagger_ui_engine/engine.rb".freeze, "lib/swagger_ui_engine/version.rb".freeze]
+  s.homepage = "https://github.com/zuzannast/swagger_ui_engine".freeze
+  s.licenses = ["MIT".freeze]
+  s.rubygems_version = "3.1.6".freeze
+  s.summary = "Mountable Rails engine that serves Swagger UI for your API documentation written in YAML files.".freeze
+
+  s.installed_by_version = "3.1.6" if s.respond_to? :installed_by_version
+
+  if s.respond_to? :specification_version then
+    s.specification_version = 4
+  end
+
+  if s.respond_to? :add_runtime_dependency then
+    s.add_runtime_dependency(%q<rails>.freeze, [">= 6"])
+    s.add_runtime_dependency(%q<sassc-rails>.freeze, [">= 0"])
+  else
+    s.add_dependency(%q<rails>.freeze, [">= 6"])
+    s.add_dependency(%q<sassc-rails>.freeze, [">= 0"])
+  end
+end
