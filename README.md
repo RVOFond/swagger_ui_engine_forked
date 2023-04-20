@@ -1,3 +1,6 @@
+# * 
+This is a copy of a fork by another developer. A currently maintained project was depending on this fork and when the original repo was removed, we needed to resolve the dependency. We did so by recovering a local copy of the fork and publishing it here. 
+
 # _Fork note!_
 
 This is a fork with the goal of deleting the version dependency on rails version lower than 6.0. Instead the dependency is the other way around, you will need a higher version than 6.0
